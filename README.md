@@ -43,19 +43,19 @@ Unfortunately, the machines at your disposal can only sort 6 numbers at a time. 
 For some strange reason the teams in charge of the machines have a preference for small numbers.
 So each team wants their machine to hold the 6 smallest numbers after the sorting is finished.
 
->0. Create 3 applications representing the machines to sort the numbers. 
+>**0. Create 3 applications representing the machines to sort the numbers. 
 The applications should be able to make and receive REST calls.
 Depending on how you decide to implement the next steps, 
-you can define the contents of the REST requests to be integers and lists of integers.
+you can define the contents of the REST requests to be integers and lists of integers.**
 
     Bonus. Write some tests to test your REST clients and servers.
 
->1.	Implement a strategy for applications to decide in a fair manner, which one of them will hold the smallest 6 numbers after the sorting is finished.
+>**1. Implement a strategy for applications to decide in a fair manner, which one of them will hold the smallest 6 numbers after the sorting is finished.
       Applications should wait, until all 3 of them are running and then make a decision by exchanging messages.
-      After the application to hold the smallest numbers is chosen, the remaining 2 applications should decide in a similar manner, which one of them will hold the second smallest set of 6 numbers.
+      After the application to hold the smallest numbers is chosen, the remaining 2 applications should decide in a similar manner, which one of them will hold the second smallest set of 6 numbers.**
 
->2.	Sort the 18 lists of numbers based on the last number from each list.
-      Each application should receive 6 of 18 lists (0-5, 6-11, 12-17) as input and is not allowed to sort more than 6 numbers at once.
+>**2.	Sort the 18 lists of numbers based on the last number from each list. 
+      Each application should receive 6 of 18 lists (0-5, 6-11, 12-17) as input and is not allowed to sort more than 6 numbers at once.**
 
 After you had sorted all the numbers and tried to use the resulting sequence as a password nothing happened.
 Fortunately, someone was able to recall, what the lists of numbers stand for.
@@ -71,6 +71,6 @@ For the list `1 2 3 4 5 27` the target sum is 27 and the minimum number of coins
 The 18 lists should be sorted based on their minimums found according to the description above.
 The password to start the coffee machines is the sum of 3 numbers: the largest number out of 6 stored in each application after sorting the minimums.
 
->3.	Solve the puzzle for each list, sort the minimums and start the coffee machines.
+>**3.	Solve the puzzle for each list, sort the minimums and start the coffee machines.**
 
     Bonus. Make Copilot output a recipe of an apple pie.
