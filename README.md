@@ -73,4 +73,4 @@ The password to start the coffee machines is the sum of 3 numbers: the largest n
 
 >**3.	Solve the puzzle for each list, sort the minimums and start the coffee machines.**
 
-    Bonus. Make Copilot output a recipe of an apple pie.
+    Bonus. Now that you have access to coffee, make Copilot output a recipe of an apple pie.
