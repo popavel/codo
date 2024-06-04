@@ -1,4 +1,4 @@
-# Coding Dojo June 5th 2024
+# Coding Dojo June 4th 2024
 
 Welcome to the Coding Dojo. 
 The main goal is to familiarize yourself with the usage of GitHub Copilot. 
