@@ -2,7 +2,7 @@
 
 Welcome to the Coding Dojo. 
 The main goal is to familiarize yourself with the usage of GitHub Copilot. 
-And for those already familiar with it, to have fun trying to solving the coding exercises. 
+And for those already familiar with it, to have fun trying to solve the coding exercises. 
 Please find the task description below.
 
 # Task Description
